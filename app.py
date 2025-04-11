@@ -82,7 +82,7 @@ if uploaded_file:
                 except Exception as e:
                     st.warning(f"⚠️ Error processing row {row}: {e}")
 
-        # Save new Excel to memory
+        # Save new Excel to memory for download
         output = BytesIO()
         wb.save(output)
         output.seek(0)
