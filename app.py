@@ -8,7 +8,7 @@ import shutil
 import tempfile
 from io import BytesIO
 
-# === PAGE CONFIG (must be first Streamlit command) ===
+# === PAGE CONFIG (must be first Streamlit command)
 st.set_page_config(page_title="Excel Image Inserter", layout="centered")
 
 # === LOGO + HEADER ===
