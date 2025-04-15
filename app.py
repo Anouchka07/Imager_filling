@@ -11,7 +11,7 @@ from io import BytesIO
 # === PAGE CONFIG (must be first Streamlit command)
 st.set_page_config(page_title="Excel Image Inserter", layout="centered")
 
-# === LOGO + HEADER ===
+# === LOGO + HEADER 
 logo_path = "assets/logo.png"
 logo = Image.open(logo_path)
 
